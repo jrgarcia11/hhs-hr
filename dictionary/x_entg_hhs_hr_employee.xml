@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_user" label="Employee" max_length="40" name="x_entg_hhs_hr_employee" type="collection">
+        <element label="Clearance days" max_length="40" name="clearance_days" type="integer"/>
+        <element label="Finished 401k" max_length="40" name="finished_401k" type="boolean"/>
+        <element label="Finished badge" max_length="40" name="finished_badge" type="boolean"/>
+        <element label="Finished parking" max_length="40" name="finished_parking" type="boolean"/>
+        <element label="Finished security" max_length="40" name="finished_security" type="boolean"/>
+        <element label="Hire days" max_length="40" name="hire_days" type="integer"/>
+        <element choice="1" label="Job" max_length="40" name="job" type="choice">
+            <choice>
+                <element label="Consumer Safety Officer" value="cso"/>
+                <element label="Epidemiologist" value="epidem"/>
+                <element label="IT Specialist" value="it_specialist"/>
+                <element label="Management Analyst" value="manager"/>
+            </choice>
+        </element>
+    </element>
+</database>

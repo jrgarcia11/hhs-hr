@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Onboard Task" max_length="40" name="x_entg_hhs_hr_onboard_task" type="collection">
+        <element label="Employee" max_length="32" name="employee" reference="x_entg_hhs_hr_employee" type="reference"/>
+        <element label="Link" max_length="1024" name="link" type="url"/>
+        <element label="Name" max_length="50" name="name" type="string"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

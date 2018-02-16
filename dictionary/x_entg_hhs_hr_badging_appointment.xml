@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_entg_hhs_hr_onboard_task" label="Badging Appointment" max_length="40" name="x_entg_hhs_hr_badging_appointment" type="collection">
+        <element label="Appointment" max_length="40" name="appointment" type="glide_date_time"/>
+    </element>
+</database>

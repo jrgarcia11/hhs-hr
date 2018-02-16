@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="job" table="x_entg_hhs_hr_employee" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consumer Safety Officer</label>
+            <language>en</language>
+            <name>x_entg_hhs_hr_employee</name>
+            <sequence/>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-02-16 15:41:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac59d8ca4f909340f78e74828110c7ea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-02-16 15:42:04</sys_updated_on>
+            <value>cso</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Epidemiologist</label>
+            <language>en</language>
+            <name>x_entg_hhs_hr_employee</name>
+            <sequence/>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-02-16 15:39:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f219d8ca4f909340f78e74828110c7a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-02-16 15:39:18</sys_updated_on>
+            <value>epidem</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IT Specialist</label>
+            <language>en</language>
+            <name>x_entg_hhs_hr_employee</name>
+            <sequence/>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-02-16 15:38:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b319d8ca4f909340f78e74828110c7c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-02-16 15:38:51</sys_updated_on>
+            <value>it_specialist</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>job</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Management Analyst</label>
+            <language>en</language>
+            <name>x_entg_hhs_hr_employee</name>
+            <sequence/>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-02-16 15:47:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2e9d8ca4f909340f78e74828110c7cc</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-02-16 15:47:56</sys_updated_on>
+            <value>manager</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>job</element>
+            <name>x_entg_hhs_hr_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-02-16 15:38:51</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>b3395cca4f909340f78e74828110c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>job</sys_name>
+            <sys_package display_value="HHS HR" source="x_entg_hhs_hr">937068314fd85340f78e74828110c7a6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS HR">937068314fd85340f78e74828110c7a6</sys_scope>
+            <sys_update_name>sys_choice_x_entg_hhs_hr_employee_job</sys_update_name>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-02-16 15:38:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
